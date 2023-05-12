@@ -1,0 +1,20 @@
+{
+  "name": "comp2110-portal-simple",
+  "version": "1.0.0",
+  "description": "Portal web application",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8013 -c-1 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0"
+  }
+}
